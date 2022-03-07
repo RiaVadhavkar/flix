@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		281AFE958BECF8AB0ABE0CA9 /* Pods_FlixAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC0598F45C20DE234DC3680 /* Pods_FlixAppTests.framework */; };
+		8129BA0527CAB70800D0D5CD /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8129BA0427CAB70800D0D5CD /* MovieDetailsViewController.swift */; };
+		815D3F7627D2D5E2009FFD7D /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D3F7527D2D5E2009FFD7D /* MovieGridViewController.swift */; };
+		815D3F7827D2EAF6009FFD7D /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D3F7727D2EAF6009FFD7D /* MovieGridCell.swift */; };
 		817B3D0127C9ACD500655F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B3D0027C9ACD500655F5A /* AppDelegate.swift */; };
 		817B3D0327C9ACD500655F5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B3D0227C9ACD500655F5A /* SceneDelegate.swift */; };
 		817B3D0527C9ACD500655F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B3D0427C9ACD500655F5A /* ViewController.swift */; };
@@ -46,6 +49,9 @@
 		2353CCEE954CC8ED2DE54572 /* Pods_FlixApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E28278212D6E9E09033F31 /* Pods-FlixApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixApp.release.xcconfig"; path = "Target Support Files/Pods-FlixApp/Pods-FlixApp.release.xcconfig"; sourceTree = "<group>"; };
 		7FDBC4134C2DAC8D9C36A65C /* Pods-FlixApp-FlixAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixApp-FlixAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FlixApp-FlixAppUITests/Pods-FlixApp-FlixAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8129BA0427CAB70800D0D5CD /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		815D3F7527D2D5E2009FFD7D /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		815D3F7727D2EAF6009FFD7D /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		817B3CFD27C9ACD500655F5A /* FlixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817B3D0027C9ACD500655F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		817B3D0227C9ACD500655F5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +113,6 @@
 				0C4045E261FB86B76BFF736F /* Pods-FlixAppTests.debug.xcconfig */,
 				DF2098A4DCD58FB7E0B6AB78 /* Pods-FlixAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +150,9 @@
 				817B3D0E27C9ACD600655F5A /* Info.plist */,
 				817B3D3027C9C70000655F5A /* MoviesViewController.swift */,
 				817B3D3527C9EC8000655F5A /* MovieCell.swift */,
+				8129BA0427CAB70800D0D5CD /* MovieDetailsViewController.swift */,
+				815D3F7527D2D5E2009FFD7D /* MovieGridViewController.swift */,
+				815D3F7727D2EAF6009FFD7D /* MovieGridCell.swift */,
 			);
 			path = FlixApp;
 			sourceTree = "<group>";
@@ -423,6 +431,9 @@
 			files = (
 				817B3D0527C9ACD500655F5A /* ViewController.swift in Sources */,
 				817B3D0127C9ACD500655F5A /* AppDelegate.swift in Sources */,
+				8129BA0527CAB70800D0D5CD /* MovieDetailsViewController.swift in Sources */,
+				815D3F7627D2D5E2009FFD7D /* MovieGridViewController.swift in Sources */,
+				815D3F7827D2EAF6009FFD7D /* MovieGridCell.swift in Sources */,
 				817B3D0327C9ACD500655F5A /* SceneDelegate.swift in Sources */,
 				817B3D3627C9EC8000655F5A /* MovieCell.swift in Sources */,
 				817B3D3127C9C70000655F5A /* MoviesViewController.swift in Sources */,
